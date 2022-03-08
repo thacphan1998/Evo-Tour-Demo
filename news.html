@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evo Tour</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/style-evo.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/news.css" />
+    <link rel="stylesheet" type="text/css" href="./font/fontawesome-free-5.15.3/css/all.min.css" />
+</head>
+
+<body class="wrapper-main">
+    <header class="header">
+        <div class="main-nav">
+            <div class="container">
+                <div class="row item-center">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light wrap-header-nav">
+                        <a class="navbar-brand logo" href="#">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                        <button id="box-shaw" class="navbar-toggler border-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <nav class="navbar navbar-light bg-light bg-search nav-form-search">
+                            <div class="input-group flex-nowrap form-search">
+                                <input type="text" id="box-shaw" class="form-control input-search"
+                                    placeholder="Nhập tên điểm đến hoặc thành phố bạn muốn đến" aria-label="Username"
+                                    aria-describedby="addon-wrapping">
+                                <span class="input-group-text icon-search" id="addon-wrapping"><i
+                                        class="fas fa-search"></i></span>
+
+                            </div>
+                        </nav>
+
+                        <div class="collapse navbar-collapse account-like" id="navbarSupportedContent ">
+                            <div class="col-account">
+                                <a class="icon-text icon-account" type="submit" href="#">
+                                    <i class="far fa-user"></i>Tài khoản
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Đăng nhập">Đăng nhập</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Đăng ký">Đăng ký</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-like">
+                                <a class="icon-text icon-like" type="submit" href="#">
+                                    <i class="far fa-heart"></i> Yêu thích
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light wrap-header justify-content-evenly">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="mobile-login-logout">
+                            <div class="first-mobile">
+                                <a href="#" title="Đăng nhập">Đăng nhập</a>
+                            </div>
+                            <div class="first-mobile">
+                                <a href="#" title="Đăng ký">Đăng ký</a>
+                            </div>
+                        </div>
+                        <div class="menu-wrapper">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-content menu-content-display">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu active-home" aria-current="page" href="#"
+                                        title="Trang chủ">Trang chủ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#" title="Giới thiệu">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item dropdown dropdown-mega-content">
+                                    <a class="nav-link nav-link-menu dropdown-toggle" href="#" title="Tour du lịch">
+                                        Tour du lịch<i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <div class="sub-menu">
+                                        <div class="col-lg-3 no-padding">
+                                            <ul class="sub-menu-left" id="menu-tour-type">
+                                                <li class="sub-menu-left-content " section-name="menu-start">
+                                                    <a class="mega-content-left " href="#" title="Tour trong nước">
+                                                        <span>Tour trong nước</span>
+                                                    </a>
+                                                    <div class="mega-content-right" id="sub-menu-start">
+                                                        <div class="row fix-padding">
+                                                            <div class="col-lg-9">
+                                                                <ul class=" sub-menu-right row ">
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Miền Bắc">Miền Bắc</a>
+                                                                        <ul class="lv-02">
+                                                                            <li>
+                                                                                <a href="#" title="Sapa">Sapa</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Hà Giang">Hà
+                                                                                    Giang</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Cao Bằng - Bắc Kạn">Cao Bằng
+                                                                                    - Bắc Kạn</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Mai Châu - Mộc Châu">Mai Châu
+                                                                                    - Mộc Châu</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Yên Bái">Yên Bái</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Ninh Bình">Ninh
+                                                                                    Bình</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Hạ Long">Hạ Long</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Cát Bà">Cát Bà</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Miền Trung">Miền Trung</a>
+                                                                        <ul class="lv-02">
+                                                                            <li>
+                                                                                <a href="#" title="Cửa Lò">Cửa Lò</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Sầm Sơn">Sầm Sơn</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Nghệ An">Nghệ An</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Thiên Cầm">Thiên
+                                                                                    Cầm</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Quảng Bình">Quảng
+                                                                                    Bình</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Huế">Huế</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Đà Nẵng">Đà Nẵng</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Hội An">Hội An</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Nha Trang">Nha
+                                                                                    Trang</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Phú Yên">Phú Yên</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Quy Nhơn">Quy
+                                                                                    Nhơn</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Đà Lạt">Đà Lạt</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Tây Nguyên">Tây
+                                                                                    Nguyên</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Phan Thiết - Mũi Né">Phan
+                                                                                    Thiết - Mũi Né</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Miền Nam">Miền Nam</a>
+                                                                        <ul class="lv-02">
+                                                                            <li>
+                                                                                <a href="#" title="Phú Quốc">Phú
+                                                                                    Quốc</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Côn Đảo">Côn Đảo</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Bến Tre">Bến Tre</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Cần Thơ">Cần Thơ</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Cà Mau">Cà Mau</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Hà Tiên">Hà Tiên</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Kiên Giang">Kiên
+                                                                                    Giang</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Nam Du">Nam Du</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="img-mega col-lg-3">
+                                                                <a href="#" title="Tour du lịch">
+                                                                    <img src="images/mega-1-image.jpg" alt="Picture">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-left-content" section-name="menu-continue">
+                                                    <a class="mega-content-left " href="#" title="Tour Quốc tế">
+                                                        <span>Tour Quốc tế</span>
+                                                    </a>
+                                                    <div class="mega-content-right" id="sub-menu-continue">
+                                                        <div class="row fix-padding">
+                                                            <div class="col-lg-9">
+                                                                <ul class=" sub-menu-right row">
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Đông Nam Á">Đông Nam Á</a>
+                                                                        <ul class="lv-02">
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Singapore">Singapore</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Malaysia">Malaysia</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Thái Lan">Thái
+                                                                                    Lan</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Campuchia">Campuchia</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Lào">Lào</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Indonesia">Indonesia</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Philipines">Philipines</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Đông Bắc Á">Đông Bắc Á</a>
+                                                                        <ul class="lv-02">
+                                                                            <li>
+                                                                                <a href="#" title="Hàn Quốc">Hàn
+                                                                                    Quốc</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Đài Loan">Đài
+                                                                                    Loan</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Hồng Kông">Hồng
+                                                                                    Kông</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Nhật Bản">Nhật
+                                                                                    Bản</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Trung Quốc">Trung
+                                                                                    Quốc</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Ấn Độ - Nam Á">Ấn Độ - Nam
+                                                                            Á</a>
+                                                                        <ul class="lv-02">
+                                                                            <li>
+                                                                                <a href="#" title="Ấn Độ">Ấn Độ</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#"
+                                                                                    title="Maldives">Maldives</a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#" title="Tây Tạng">Tây
+                                                                                    Tạng</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Châu Âu">Châu Âu</a>
+                                                                    </li>
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Châu Úc">Châu Úc</a>
+                                                                    </li>
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Châu Phi">Châu Phi</a>
+                                                                    </li>
+                                                                    <li class="right-lv-01 col-lg-4">
+                                                                        <a href="#" title="Châu Mỹ">Châu Mỹ</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="img-mega col-lg-3">
+                                                                <a href="#" title="Tour Quốc tế">
+                                                                    <img src="images/mega-2-image.jpg" alt="Picture">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#" title="Tour khuyến mãi">Tour khuyến
+                                        mãi</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#" title="Tin tức">Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#" title="Kinh nghiệm du lịch">Kinh nghiệm
+                                        du lịch</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#" title="FAQ">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#" title="Liên hệ">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="hotline">
+                            <i class="fas fa-phone-volume"></i>Hotline: <a href="#" title="0987382383">0987382383</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="section-01 bread-link">
+        <div class="container">
+            <ul class="bread-link-item">
+                <li class="display-link link-item-home">
+                    <a href="#">
+                        <span>Trang chủ</span>
+                    </a>
+                </li>
+                <li class="display-link link-item-element">
+                    <a href="#">
+                        <span>Tour du lịch</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- ... -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-9">
+                <div class="evo-list-blogs-page margin-top-15">
+                    <section class="list-blogs blogs-main">
+                        <div class="row new-list">
+                            <div class="col-sm-7 col-md-7 col-lg-8">
+                                <div class="new-big">
+                                    <div class="tempvideo">
+                                        <a href="">
+                                            <img src="images/da-nang.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <h3>
+                                        <a href="Cẩm nang du lịch Đà Nẵng một ngày cho hội bạn vui chơi “sập” Đà thành"
+                                            class="title-new-big">Cẩm nang du lịch Đà Nẵng một ngày cho hội bạn vui chơi
+                                            “sập” Đà thành</a>
+                                    </h3>
+                                    <figure>Đà Nẵng có cả núi, đồng bằng và biển, chỉ nằm cách Hội An 30 km. Bao quanh
+                                        bởi
+                                        hàng loạt điểm tham quan du lịch cũng như danh lam thắn...</figure>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-lg-4">
+                                <ul class="right-item">
+                                    <li class="has-tempvideo">
+                                        <div class="tempvideo">
+                                            <a href="">
+                                                <img src="images/kinh-nghiem-da-nang.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <h3>
+                                            <a href="Bí quyết du lịch Đà Lạt tự túc giá rẻ để xách túi và đi ngay không cần suy nghĩ"
+                                                class="title-new-big">Bí quyết du lịch Đà Lạt tự túc giá rẻ để xách túi
+                                                và
+                                                đi ngay không cần suy nghĩ</a>
+                                        </h3>
+                                    </li>
+                                    <li class="list-small">
+                                        <div class="tempvideo d-lg-none">
+                                            <a href="" title="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">
+                                                <img src="images/kinh-nghiem-da-nang.jpg" alt="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">
+                                            </a>
+                                        </div>
+                                        <h3>
+                                            <a href="" title="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này</a>
+                                        </h3>
+                                    </li>
+                                    <li class="list-small">
+                                        <div class="tempvideo d-lg-none">
+                                            <a href="" title="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">
+                                                <img src="images/nha-trang.jpg" alt="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">
+                                            </a>
+                                        </div>
+                                        <h3>
+                                            <a href="" title="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này</a>
+                                        </h3>
+                                    </li>
+                                    <li class="list-small">
+                                        <div class="tempvideo d-lg-none">
+                                            <a href="" title="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">
+                                                <img src="images/nha-trang.jpg" alt="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">
+                                            </a>
+                                        </div>
+                                        <h3>
+                                            <a href="" title="Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này">Vui chơi thả ga cùng bạn bè tại Phan Thiết với cẩm nang du lịch chi tiết này</a>
+                                        </h3>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="infomation-area">
+            <div class="container">
+                <div class="row item-info-top">
+                    <div class="col-md-12 col-lg-3">
+                        <ul class="social-media">
+                            <li class="face">
+                                <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="youtube">
+                                <a href="#" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li class="twitter">
+                                <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="ints">
+                                <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="subscribe-content">
+                            <h2>Đăng ký nhận tin</h2>
+                            <p>Các deal du lịch giảm giá đến 60% sẽ được gửi đến bạn</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-5">
+                        <div class="subscribe-form-email">
+                            <form class="subscribe-form">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="NAME" id="box-shaw"
+                                        aria-describedby="Địa chỉ Email" placeholder="Địa chỉ Email">
+                                    <span class="input-group-append">
+                                        <button type="submit" id="box-shaw" class="btn btn-default"
+                                            name="subscribe">Đăng ký</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-3 info-left-footer">
+                        <a href="#" class="logo-footer" title="Evo Tour">
+                            <img src="images/footer_logo.png" alt="Evo Tour"
+                                class="lazy img-responsive mx-auto d-block loaded">
+                        </a>
+                        <ul class="info-contact">
+                            <li>
+                                <span>Địa chỉ:</span> 30 Đường 2/9, Phường Bình Hiên, Quận Hải Châu, Đà Nẵng
+                            </li>
+                            <li>
+                                <span>Email:</span>
+                                <a href="#" title="phandinhthac8798@gmail.com">phandinhthac8798@gmail.com</a>
+                            </li>
+                            <li>
+                                <span>Điện thoại:</span>
+                                <a href="#" title="0983623722">0983623722</a>
+                            </li>
+                            <li>Giấy phép kinh doanh số 0000000000 do sở KH&ĐT TP cấp ngày 00/00/0000</li>
+                        </ul>
+                        <div class="payment-method">
+                            <img class="payment-img" src="images/visa.svg" alt="Tour Quốc tế">
+                            <img class="payment-img" src="images/payment_4.svg" alt="Tour Quốc tế">
+                            <img class="payment-img" src="images/payment_3.svg" alt="Tour Quốc tế">
+                            <img class="payment-img" src="images/payment_5.svg" alt="Tour Quốc tế">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-9 info-right-footer">
+                        <div class="row">
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                                <div class="menu-footer">
+                                    <h3>Evo Tour</h3>
+                                    <ul class="content-menu-footer">
+                                        <li>
+                                            <a href="#" title="Trang chủ">Trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Giới thiệu">Giới thiệu</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tour du lịch">Tour du lịch</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tour khuyến mãi">Tour khuyến mãi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tin tức">Tin tức</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Kinh nghiệm du lịch">Kinh nghiệm du lịch</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="FAQ">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Liên hệ">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                                <div class="menu-footer">
+                                    <h3>Evo Tour</h3>
+                                    <ul class="content-menu-footer">
+                                        <li>
+                                            <a href="#" title="Trang chủ">Trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Giới thiệu">Giới thiệu</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tour du lịch">Tour du lịch</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tour khuyến mãi">Tour khuyến mãi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tin tức">Tin tức</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Kinh nghiệm du lịch">Kinh nghiệm du lịch</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="FAQ">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Liên hệ">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                                <div class="menu-footer">
+                                    <h3>Evo Tour</h3>
+                                    <ul class="content-menu-footer">
+                                        <li>
+                                            <a href="#" title="Trang chủ">Trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Giới thiệu">Giới thiệu</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tour du lịch">Tour du lịch</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tour khuyến mãi">Tour khuyến mãi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tin tức">Tin tức</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Kinh nghiệm du lịch">Kinh nghiệm du lịch</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="FAQ">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Liên hệ">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+                                <div class="menu-footer">
+                                    <h3>Evo Tour</h3>
+                                    <ul class="content-menu-footer">
+                                        <li>
+                                            <a href="#" title="Trang chủ">Trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Giới thiệu">Giới thiệu</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tour du lịch">Tour du lịch</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tour khuyến mãi">Tour khuyến mãi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Tin tức">Tin tức</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Kinh nghiệm du lịch">Kinh nghiệm du lịch</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="FAQ">FAQ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Liên hệ">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="copy-right">
+                                    <span>
+                                        © Bản quyền thuộc về
+                                        <b>Evo Themes</b>
+                                        <span>|</span> Cung cấp bởi
+                                        <a href="#" title="Sapo" target="_blank">Sapo</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="background-drop"></div>
+    <div class="main-menu-sub"></div>
+    <script src="./js/jquery-3.6.0.min.js "></script>
+    <script src="./js/bootstrap.min.js "></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
