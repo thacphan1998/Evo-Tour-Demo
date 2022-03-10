@@ -1583,6 +1583,16 @@ li.display-link {
     font-size: 14px;
 }
 
+li.display-link::after {
+    content: "/";
+    padding: 0 5px;
+}
+
+li.display-link:last-child::after {
+    content: "";
+    
+}
+
 a {
     text-decoration: none;
 }
